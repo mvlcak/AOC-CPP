@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-long long day02::solve_part2(const std::vector<std::string> &lines) {
+long day01::solve_part2(const std::vector<std::string> &lines) {
     int current_position=50;
     long counter = 0;
     for (const auto &line : lines) {
@@ -16,7 +16,7 @@ long long day02::solve_part2(const std::vector<std::string> &lines) {
     return counter;
 }
 
-int day02::shift_position(const char& side, int& position, const int& shift, long& counter) {
+int day01::shift_position(const char& side, int& position, const int& shift, long& counter) {
     int previous_position = position;
     if (side == 'L') {
         position -= shift % 100;

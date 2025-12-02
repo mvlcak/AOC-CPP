@@ -6,7 +6,7 @@
 
 using namespace day01;
 
-long long day01::solve_part1(const std::vector<std::string> &lines) {
+long day01::solve_part1(const std::vector<std::string> &lines) {
     int current_position=50;
     long counter = 0;
     for (const auto &line : lines) {

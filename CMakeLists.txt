@@ -27,3 +27,4 @@ endfunction()
 
 # Days
 aoc_day(01)
+aoc_day(02)
