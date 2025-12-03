@@ -8,6 +8,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Common library
 add_library(aoc_lib
         src/lib/io.cpp
+        src/day03/utils.hpp
+        src/day03/utils.cpp
 )
 target_include_directories(aoc_lib PUBLIC src/lib)
 
@@ -28,3 +30,4 @@ endfunction()
 # Days
 aoc_day(01)
 aoc_day(02)
+aoc_day(03)
